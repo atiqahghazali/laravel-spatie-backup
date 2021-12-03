@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
+use Srmklive\Dropbox\Client\DropboxClient;
 
 class DropboxServiceProvider extends ServiceProvider
 {
